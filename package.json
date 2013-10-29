@@ -22,9 +22,8 @@
         , "ee-types"                : "*"
         , "ee-log"                  : "*"
         , "request"                 : "2.27.0"
-        , "ee-resource-pool"        : ">=0.1.2"
+        , "ee-resource-pool"        : ">=0.1.3"
     }
     , "devDependencies": {}
     , "optionalDependencies": {}
-    , "private"                     : true
 }
