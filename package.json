@@ -1,0 +1,30 @@
+{
+      "name"                        : "ee-request-pool"
+    , "description"                 : "rate limited http requests"
+    , "version"                     : "0.1.0"
+    , "homepage"                    : "https://github.com/eventEmitter/ee-request-pool"
+    , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
+    , "licence"                     : "mit"
+    , "os"                          : "linux"
+    , "repository": {
+          "url"                     : "https://github.com/eventEmitter/ee-request-pool.git"
+        , "type"                    : "git"
+    }
+    , "engines": {
+        "node"                      : ">=v0.10.17"
+    }
+    , "bugs": {
+        "url"                       : "https://github.com/eventEmitter/ee-request-pool/issues"
+    }
+    , "dependencies": {
+          "ee-class"                : "*"
+        , "ee-event-emitter"        : "*"
+        , "ee-types"                : "*"
+        , "ee-log"                  : "*"
+        , "request"                 : "2.27.0"
+        , "ee-resource-pool"        : ">=0.1.2"
+    }
+    , "devDependencies": {}
+    , "optionalDependencies": {}
+    , "private"                     : true
+}
