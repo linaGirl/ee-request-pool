@@ -6,6 +6,12 @@ rate limited http requests using the (resuest)[https://npmjs.org/package/request
 
 	npm install ee-request-pool
 
+
+## build status
+
+[![Build Status](https://travis-ci.org/eventEmitter/ee-request-pool.png?branch=master)](https://travis-ci.org/eventEmitter/ee-request-pool)
+
+
 ## usage
 
 ### consturctor
@@ -30,6 +36,9 @@ you may pass the options object for a [request](https://github.com/mikeal/reques
 
 #### example
 
-	pool.request( { url: "http://whatever/user", method: "POST" }, function( err, response, body ){
+	pool.request({ 
+		  url 		: 'http://whatever/user'
+		, method 	: 'POST' 
+	}, function(err, response, body) {
 
-	} );
+	});
