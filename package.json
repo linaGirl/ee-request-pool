@@ -16,15 +16,15 @@
         "url"                       : "https://github.com/eventEmitter/ee-request-pool/issues"
     }
     , "dependencies": {
-          "ee-class"                : "1.0.x"
-        , "ee-event-emitter"        : "0.1.x"
-        , "ee-types"                : "0.1.x"
-        , "ee-log"                  : "0.2.x"
-        , "request"                 : "2.39.x"
+          "ee-class"                : "~1.4.0"
+        , "ee-event-emitter"        : "~1.0.1"
+        , "ee-types"                : "~2.1.2"
+        , "ee-log"                  : "~2.0.2"
+        , "request"                 : "~2.81.0"
         , "ee-resource-pool"        : "0.1.x"
     }
     , "devDependencies": {
-          "mocha"                   : "1.17.x"
+          "mocha"                   : "~3.3.0"
     }
     , "optionalDependencies": {}
     , "keywords"                    : ["ee", "resource", "pool"]
