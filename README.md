@@ -1,5 +1,7 @@
 # ee-request-pool
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/ee-request-pool.svg)](https://greenkeeper.io/)
+
 rate limited http requests using the (resuest)[https://npmjs.org/package/request] library
 
 ## installation
