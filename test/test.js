@@ -18,7 +18,7 @@
 
 
 	describe('The RequestPool', function(){
-		it('should not throw wenn instantiated', function(){
+		it('should not throw when instantiated', function(){
 			pool = new RequestPool({  
 				  max: 					5 	 	// max conccurent request, defaults to 10'000
 				, maxPerDomain: 		10 		// max conccurent request per domain , defaults to 10
